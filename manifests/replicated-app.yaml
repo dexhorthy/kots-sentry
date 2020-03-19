@@ -3,6 +3,7 @@ kind: Application
 metadata:
   name: sentry-enterprise
 spec:
+  allowRollback: true
   title: Sentry Enterprise
   icon: https://sentry-brand.storage.googleapis.com/sentry-glyph-black.png
   releaseNotes: |
